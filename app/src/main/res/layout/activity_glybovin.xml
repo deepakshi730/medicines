@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/daonil_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close"
+                android:layout_gravity="top|right"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glybovin 5 Tablet"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="1">
+
+                    <TableRow android:layout_width="0dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Price:"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0.81/Tablet"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+                    </TableRow>
+
+                    <TableRow android:layout_width="0dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Salts Present:"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Glibenclamide (5mg)"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+                    </TableRow>
+
+                    <TableRow android:layout_width="0dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Store At:"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Room Temperature(10-30 C)"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prescribed for:"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Type 2 diabetes mellitus"
+                            android:textSize="16dp"
+                            android:padding="10dp"
+                            android:textColor="@android:color/black"
+                            />
+                    </TableRow>
+
+                </TableLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Glybovin 5 Tablet is a medicine used to treat type 2 diabetes mellitus in adults. It belongs to a group of medicines called sulfonylureas and helps control blood sugar levels in people with diabetes. This helps to prevent serious complications of diabetes like kidney damage and blindness. It should be taken with food. Take it regularly at the same time each day to get the most benefit."
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_marginTop="16dp"
+                android:textColor="@android:color/black"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

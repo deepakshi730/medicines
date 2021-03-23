@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:padding="10dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/myclose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close"
+                android:layout_gravity="top|right"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mehari Choorna"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mehari Choorna by Ayurvedeeya Arkashala Ltd. is an ayurvedic herbal dry powder of 3 special herbs. It is indicated in pre-diabetes and type 2 diabetes. Mehari Choorna is very effective in reducing blood sugar levels. It combats the complications related to high blood glucose.
+
+Mehari Choorna is effective in soothing symptoms of diabetes. It is advised in treating thirst, burning sensation, frequent urination,  and constipation. Regular use of 'Mehari Choorna' helps to reduce the dose of oral hypoglycaemic drugs."
+                    android:textSize="16dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    />
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

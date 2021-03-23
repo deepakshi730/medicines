@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:padding="10dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/myclose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close"
+                android:layout_gravity="top|right"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clove"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                />
+
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Whole cloves are often used to spice up meat and rice dishes. Ground cloves are used in pies and many other foods. As a medicine, cloves can be found in capsule or powder form. Clove oil is also available. Like other herbal supplements, you can use cloves to treat a wide range of conditions. Cloves may help ease nausea and treat colds. They may also help relieve the pain associated with headaches, arthritic inflammation, and toothaches. Cloves can also be used as part of a topical pain reliever. The active ingredient in cloves is eugenol, a natural pain reliever that’s also used in some OTC pain rubs. Rubbing a tiny amount of clove oil on your gums may temporarily ease toothache pain until you can get to a dentist. But too much undiluted clove oil may actually hurt your gums, so discuss this approach with your dentist before trying it at home.
+
+People with bleeding disorders or who are taking blood-thinning medication should be careful when consuming clove products. Clove oil can increase the risk of abnormal bleeding.
+
+
+
+"
+                    android:textSize="16dp"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    />
+
+            </ScrollView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
